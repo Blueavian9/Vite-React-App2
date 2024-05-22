@@ -1,3 +1,18 @@
+.noto-sans-netflix {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -28,6 +43,7 @@ header {
     width: 148px;
     height: 40px;
     margin: 10px;
+    filter: invert(25%) sepia(100%) saturate(7000%) hue-rotate(360deg);
 }
 
 button {
@@ -57,15 +73,36 @@ button {
 }
 
 .hero-text h3 {
-    font-size: 35px;
     color: #ffffff;
+    font-weight: bold, 700%;
+    font-size: 40px;
+    font-family: "Bebas Neue";
     margin-bottom: 20px;
+    line-height: 1.25;
+    letter-spacing: .7px;
+    /* original: letter-spacing: -0.4px; */
 }
 
+/* 
+.hero-text h3 {
+  text-align: center;
+    font-family: var(--medium-font);
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.25;
+    letter-spacing: -0.4px;
+    margin: 0px 0px 40px;
+}
+*/
+
+
 .hero-text h4 {
+    margin: 1rem 0 0;
     font-size: 22px;
+    font-weight: 400;
     color: #ffffff;
 }
+
 
 .heroform {
     display: flex;
@@ -100,5 +137,4 @@ form button {
     width: 211px;
     height: 56px;
     font-size: 24px;
-
 }
