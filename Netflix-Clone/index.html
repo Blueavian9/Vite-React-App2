@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
@@ -17,25 +18,36 @@
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <img src="/images/Netflix-logo2.svg" alt="logo" class="logo">
-            <button class="signIn">Sign In</button>
-        </header>
-        <section class="hero">
-            <div class="hero-text">
-                <h3 class="bebas-neue-regular">Unlimited films, TV Programmes and more </h3>
-                <h4>Watch anywhere. cancel at any time</h4>
-            </div>
-            <div class="heroform">
-                <h5>Ready to watch? enter your email to create or restart your membership </h5>
-                <form>
-                    <input type="text" placeholder="Email address">
-                    <button type="submit">Get Started</button>
-                </form>
-            </div>
-        </section>
+
+
+    <!-- <div class="container"></div> -->
+    <header>
+        <img src="/images/logo.svg" alt="logo" class="logo">
+        <div class="languager">
+            <select title="lang" id="lang" name="lang">
+                <option value="en"><i class="fa-solid fa-language"></i> English</option>
+                <option value="es"><i class="fa-solid fa-language"></i> Spanish</option>
+            </select>
+        </div>
+        <button class="signIn" type="button">Sign In</button>
+    </header>
+    <section class="heroImg">
+        <div class="hero-text">
+            <h3 class="bebas-neue-regular">Unlimited films, TV Programmes and more </h3>
+            <h4>Watch anywhere. cancel at any time</h4>
+        </div>
+        <div class="heroform">
+            <h5>Ready to watch? enter your email to create or restart your membership </h5>
+            <form>
+                <input type="text" placeholder="Email address">
+                <button type="submit">Get Started &gt; </button>
+            </form>
+        </div>
+    </section>
     </div>
+    <!-- <div class="mid-container1">
+
+    </div> -->
 </body>
 
 </html>

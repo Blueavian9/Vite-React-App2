@@ -3,7 +3,7 @@
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
-    font-variation-settings: "wdth" 100;
+    font-variation-settings: "width" 100;
 }
 
 .bebas-neue-regular {
@@ -25,12 +25,31 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    /* background-image: URL("images/HBanner.png"); */
     width: 100vw;
     height: 628px;
-    /* background-image: URL("images/Netflix-HB.jpeg"); */
+    /* background: rgb(0 0 0 /40%);*/
     background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1)),
-        url("images/Netflix-HB.jpeg") no-repeat center/cover;
+        url("images/HBanner.png") no-repeat center/cover;
 }
+
+/* background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: URL("images/HBanner.png") no-repeat center/cover; */
+
+
 
 header {
     display: flex;
@@ -46,12 +65,22 @@ header {
     filter: invert(25%) sepia(100%) saturate(7000%) hue-rotate(360deg);
 }
 
+.language i.fa-solid.fa-language {
+    font-size: 16px;
+    /* Adjust the font size as needed */
+    color: #ffffff;
+    /* Set the icon color */
+    margin-right: 5px;
+    /* Add some spacing between the icon and the text */
+}
+
 button {
     margin: 10px;
     border: none;
     background-color: #EC3F30;
     color: #ffffff;
     border-radius: 4px;
+    z-index: 100;
 }
 
 .signIn {
@@ -59,7 +88,7 @@ button {
     height: 32px;
 }
 
-.hero {
+.heroImg {
     display: flex;
     margin-top: 20px;
     height: 400px;
@@ -73,6 +102,10 @@ button {
 }
 
 .hero-text h3 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     color: #ffffff;
     font-weight: bold, 700%;
     font-size: 40px;
@@ -81,6 +114,7 @@ button {
     line-height: 1.25;
     letter-spacing: .7px;
     /* original: letter-spacing: -0.4px; */
+    margin: 0px 0px 40px;
 }
 
 /* 
@@ -97,6 +131,10 @@ button {
 
 
 .hero-text h4 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     margin: 1rem 0 0;
     font-size: 22px;
     font-weight: 400;
@@ -137,4 +175,8 @@ form button {
     width: 211px;
     height: 56px;
     font-size: 24px;
+}
+
+.mid-container1 {
+
 }
