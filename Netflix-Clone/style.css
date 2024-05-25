@@ -25,12 +25,12 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    /* background-image: URL("images/HBanner.png"); */
+    background-image: url("/images/HBanner.png");
     width: 100vw;
     height: 628px;
-    /* background: rgb(0 0 0 /40%);*/
+    /* background: rgb(0 0 0 /40%); */
     background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1)),
-        url("images/HBanner.png") no-repeat center/cover;
+        url("/images/HBanner.png") no-repeat center/cover;
 }
 
 /* background-image: initial;
@@ -177,6 +177,4 @@ form button {
     font-size: 24px;
 }
 
-.mid-container1 {
-
-}
+.mid-container1 {}
